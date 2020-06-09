@@ -1,10 +1,14 @@
 import React from 'react'
-
+import TodoItem from './subcomponent/TodoItem'
 import "../style.css"
 function MainContent(){ 
+    
     return (
-    <main className="mainCon">
-        This is a header
+    <main className="todo-list">
+        <TodoItem/>
+        <TodoItem/>
+        <TodoItem/>
+        <TodoItem/>
     </main>
     )
     }
