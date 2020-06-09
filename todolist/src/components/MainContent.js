@@ -1,6 +1,6 @@
 import React from 'react'
 import TodoItem from './subcomponent/TodoItem'
-import "../style.css"
+//import "../style.css"
 function MainContent(){ 
     
     return (
